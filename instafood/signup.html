@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>USER ACCOUNT REGISTRATION FORM</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header">
+  	<h2>Register</h2>
+  </div>
+  <form method="post" action="signup.php">
+   	<p>
+  		Already a member? <a href="../instafood/login.php">Sign in</a>
+  	</p>
+
+  	<div class="input-group">
+  	  <label>Username</label>
+  	  <input type="text" name="user_id" required>
+  	</div>
+    <div class="input-group">
+      <label>FirstName</label>
+      <input type="text" name="fname" required>
+    </div>
+    <div class="input-group">
+      <label>LastName</label>
+      <input type="text" name="lname" required>
+    </div>
+    <div class="input-group">
+      <label>MiddleName</label>
+      <input type="text" name="mname">
+    </div>
+    <div class="input-group">
+      <label>AddressLine1</label>
+      <input type="text" name="addressline_1" required>
+    </div>
+    <div class="input-group">
+      <label>AddressLine2</label>
+      <input type="text" name="addressline_2" >
+    </div>
+    <div class="input-group">
+      <label>City</label>
+      <input type="text" name="City" required>
+    </div>
+    <div class="input-group">
+      <label>State</label>
+      <input type="text" name="State" required>
+    </div>
+    <div class="input-group">
+      <label>ZIPCODE</label>
+      <input type="text" name="zipcode" required>
+    </div>
+    <div class="input-group">
+      <label>PhoneNumber1</label>
+      <input type="tel" name="PhoneNumber1">
+    </div>
+    <div class="input-group">
+      <label>PhoneNumber2</label>
+      <input type="tel" name="PhoneNumber2">
+    </div>
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="email" name="email">
+  	</div>
+  	<div class="input-group">
+  	  <label>Password</label>
+  	  <input type="password" name="password">
+  	</div>
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
+  	</div>
+  </form>
+</body>
+</html>
